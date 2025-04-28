@@ -15,3 +15,10 @@ INSERT INTO events (title, description, date)
 VALUES ('Sample Event', 'This is a sample event description', '2025-05-01');
 
 select * from events;
+
+
+ng serve for frontend 
+node server.js for backend
+do forgot to change password of your mysql in server.js file
+
+Good Luck !!
