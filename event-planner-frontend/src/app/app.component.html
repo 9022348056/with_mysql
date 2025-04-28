@@ -1,0 +1,20 @@
+<nav style="padding: 1rem; background-color: #f8f9fa;">
+  <a 
+    routerLink="/" 
+    routerLinkActive="active-link" 
+    [routerLinkActiveOptions]="{ exact: true }"
+    style="margin-right: 1rem; text-decoration: none; color: black;"
+  >
+    Event List
+  </a>
+  |
+  <a 
+    routerLink="/add" 
+    routerLinkActive="active-link"
+    style="margin-left: 1rem; text-decoration: none; color: black;"
+  >
+    Add Event
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
